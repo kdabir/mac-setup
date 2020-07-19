@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+## installs various meta software
 ## typically used once per new machine, however safe to be called multiple times
 
 source ./lib.sh
@@ -14,7 +15,7 @@ fi
 if has_exec brew; then
   already_installed "Homebrew"
 else
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 fi
 
 
