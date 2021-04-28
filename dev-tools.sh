@@ -7,8 +7,8 @@ set +e
 ## upgrade the tools that come with system
 brew install zsh bash git make ruby curl
 
-brew cask install docker
-brew cask install anaconda
+brew install --cask  docker
+brew install --cask  anaconda
 
 brew install node
 
