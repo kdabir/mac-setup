@@ -16,7 +16,7 @@ brew install awslogs
 brew install aws/tap/aws-sam-cli
 
 ## Google Cloud
-brew cask install google-cloud-sdk
+brew install --cask google-cloud-sdk
 npm install -g firebase-tools
 
 ## Netlify
