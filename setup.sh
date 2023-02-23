@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-set +e
+## fail if encountered an error
+set -e
 
 ########################################################################################################################
 # The script starts with defining some library functions and then setup_* functions
