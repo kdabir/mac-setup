@@ -10,7 +10,7 @@ MacOS machine ready for development.
 
 OR 
 
-`curl -sL https://raw.githubusercontent.com/kdabir/mac-setup/master/setup.sh | bash`
+`curl -sL https://raw.githubusercontent.com/kdabir/mac-setup/main/setup.sh | bash`
 
 
 
