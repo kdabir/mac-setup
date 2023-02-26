@@ -219,6 +219,16 @@ setup_preinstalled(){
     done
 }
 
+
+setup_essentials() {
+    install_app alfred "Alfred (launcher)"
+    install_app 1password "1Password"
+    install_app 1password-cli "1Password CLI"
+    install_app evernote "Evernote"
+    install_app slack "Slack"
+    install_app google-chrome "Google Chrome"
+}
+
 setup_apps() {
     echo "In this section we will install various Apps (mostly GUI). You will be asked for confirmation for each app"
 
