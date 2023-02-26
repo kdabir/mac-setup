@@ -113,6 +113,8 @@ setup_init() {
 
 setup_devtools() {
 
+    brew install gh
+
     ## Install node and npm
     brew install node
 
@@ -138,6 +140,9 @@ setup_devtools() {
     brew install rustup
     rustup-init
     brew install vlang
+
+    
+
 }
 
 setup_cli() {
