@@ -4,21 +4,28 @@ MacOS machine ready for development.
 
 **Warning:** Highly opinionated stuff ahead :)  
 
-# Installation
+## Installation
 
-`git clone` or download zip of the project
 
-OR 
+### Without downloading
 
 `curl -sL https://raw.githubusercontent.com/kdabir/mac-setup/main/setup.sh | bash -s -- init`
 
+
+### Donwloading locally
+
+`git clone` or download the [zip](https://github.com/kdabir/mac-setup/archive/refs/heads/main.zip) file of the project
+
+
+## Installation Notes
 
 This project can be downloaded/checked-out anywhere (directory), deleted and cloned again. It does not store any state 
 in the working directory (where it is checked out). The script is idempotent and hence can be run as many times whether 
 it is fresh machine or not.
 
-If it's a fresh machine, you won't have developer tools and git installed, so start with this command first `./setup.sh init`
+## Running 
 
+If it's a fresh machine, you won't have developer tools and git installed, so start with this command first `./setup.sh init`
 
 - help: `./setup.sh --help`
 
@@ -29,13 +36,9 @@ If it's a fresh machine, you won't have developer tools and git installed, so st
 - self-upgrade: `git pull --rebase`
 
 
-Fork it off and have fun
+## Troubleshooting
 
-
-
-### common issues
-
-##### Running in non-interactive mode because `stdin` is not a TTY.
+### Running in non-interactive mode because `stdin` is not a TTY.
 
 ```
 Warning: Running in non-interactive mode because `stdin` is not a TTY.
@@ -51,3 +54,8 @@ $ git clone https://github.com/kdabir/mac-setup.git
 $ cd mac-setup
 $ ./setup.sh init
 ```
+
+
+## Customizations
+
+Fork it off and have fun :)
